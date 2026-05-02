@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Custom styles can be added here */
+.box {
+  @apply h-20 w-20 bg-green-400 p-4 rounded-lg shadow-md ;
+}
