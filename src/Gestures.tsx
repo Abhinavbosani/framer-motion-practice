@@ -22,7 +22,14 @@ const Gestures = () => {
         {/* whileDrag */}
         <motion.div
         className='box'
-        drag="x"/>
+        drag
+        dragConstraints={{
+          top:-50,
+          left:-50,
+          right:50,
+          bottom:50
+        }}/>
+        
         
     </div>
   )
