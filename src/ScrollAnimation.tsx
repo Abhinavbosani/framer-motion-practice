@@ -13,7 +13,6 @@ const ScrollAnimation = () => {
       <motion.div className='bg-blue-500 w-32 h-32 rounded-lg shadow-lg' style={{scale,opacity}}>
       </motion.div>
       <div className='w-full h-[200vh]'></div>
-      
 
     </div>
   )
